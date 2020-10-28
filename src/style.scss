@@ -1,0 +1,41 @@
+h1,
+form,
+.card {
+  margin: 2rem 0 0 0;
+}
+
+.card {
+  // border: 1px solid red;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #ecf0f1;
+  padding: 2rem;
+}
+
+.card-userInfo {
+  // border: 1px solid blue;
+  display: flex;
+  flex-flow: row nowrap;
+  // padding: 0 0 2rem 0;
+  a {
+    text-decoration: none;
+    color: #2c3e50;
+  }
+}
+
+.card-userInfo-img {
+  // border: 1px solid yellow;
+  width: 10rem;
+}
+
+.card-userInfo-words {
+  // border: 1px solid green;
+  padding: 0 0 0 2rem;
+  line-height: 1.3;
+}
+
+// .calendar {
+// 	border: 1px solid salmon;
+// 	height: 10.2rem;
+// 	width: 30.6rem;
+// }
